@@ -1,7 +1,14 @@
 aid: futurefit-ai
 name: FutureFit AI
-description: FutureFit AI is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: FutureFit AI is an AI-powered workforce technology company that connects
+  people to careers, employers to talent, and workforce partners to tools for
+  integrated and intelligent workforce systems. Its Pathways Platform powers
+  workforce-system transformation while its Career Copilot delivers AI-driven career
+  guidance across career navigation, labor exchange, employment services, virtual
+  career centers, upskilling and reskilling, and industry talent pipelines. The
+  company serves workforce development, economic development, and enterprise
+  customers. As of this enrichment pass FutureFit AI publishes a marketing and
+  product site but no public API, developer portal, SDKs, or technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/futurefit-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/6699441ef3c74bb4ae8d7c90/66ba74437187fdb83f73ef6c_Facebook%20Open%20Graph%20(2).png
 tags:
 - Company
+- Workforce
+- Artificial Intelligence
+- Career Navigation
+- Talent
+- Human Resources
+- Economic Development
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/futurefit-ai-domain-security.yml
 - type: Website
   url: https://futurefit.ai/
+- type: Blog
+  url: https://futurefit.ai/resources
+- type: TermsOfService
+  url: https://futurefit.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://futurefit.ai/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
